@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#444140;
+    z-index: 99;
+  }
+  
+  .nav__content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav .logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #a29ba8;
+    transition: 0.3s;
+  }
+  nav .logo a:hover {
+    color: #ca8a04;
+  }
+  
+  nav .checkbox {
+    display: none;
+  }
+  
+  nav input {
+    display: none;
+  }
+  nav .checkbox i {
+    font-size: 2rem;
+    color: #a08ca5;
+    cursor: pointer;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+  }
+  
+  ul li a {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: #aab1bb;
+    transition: 0.3s;
+  }
+  
+  ul li a:hover {
+    border-top-color: #ca8a04;
+    border-bottom-color: #ca8a04;
+    color:#ca8a04;
+  }
+  
+  .section {
+    background-color: #1E1E24;
+  }
+  
+  .section__container {
+    min-height: 100vh;
+    max-width:1200px;
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .subtitle {
+    letter-spacing: 2px;
+    color:beige;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #9ca4af;
+    margin-bottom: 1rem;
+  }
+  
+  .title span {
+    font-weight: 600;
+  }
+
+  .title span:hover{
+      color:lavenderblush;
+  }
+  
+  .description {
+    line-height: 36px;
+    color: #eef7f2;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio:hover {
+    color: #ffffff;
+  }
+  
+  .image {
+    display: grid;
+    place-items: center;
+  }
+  
+  .image img {
+    width: min(25rem, 45%);
+    border-radius: 50%;
+  }
+  
+  .main img{
+    width:500px;
+    height:450px;
+  }
+
+  .about{
+    width:100%;
+    padding: 100px 0px;
+  }
+
+  .about-text{
+    width:600px;
+  }
+
+  .main{
+    width:1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about-text h2{
+      color:beige;
+      font-size:60px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+  }
+
+  .about-text h5{
+    color:#9ca4af ;
+    letter-spacing: 2px ;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  p{
+    color:#fcfc ;
+    letter-spacing: 1px;
+    font-size:18px;
+    line-height: 25px ;
+    margin-bottom: 45px;
+  }
+  button{
+    background-color: #f9004d;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+  }
+  button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+  }
+  .projects{
+    background-color:#1E1E24;
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .tagline h2{
+    color:#b6af8f;
+    font-size: 60px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align:center;
+  }
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+  }
+  .card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #534f4f;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  h5{
+    color:whitesmoke;
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  .pro1 p{
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+  .card .click{
+    background-color: #f9004d;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+  }
+  .card .click:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+  }
+  
